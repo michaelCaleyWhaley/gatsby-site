@@ -89,7 +89,7 @@ a {
 .hero {
   height: calc(100vh - 50px);
   width: 100%;
-  background-image: url('https://www.andrewswalks.co.uk/wp-content/uploads/151041969914179.jpg');
+  background-image: url('/static/humber_bridge-bac4542f5fe49727b5cdb17979d2f131.jpg');
   background-size: cover;
   background-position: center;
 }
