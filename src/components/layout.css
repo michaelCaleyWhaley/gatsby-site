@@ -87,9 +87,19 @@ a {
 }
 
 .hero {
+  position: relative;
   height: calc(100vh - 50px);
   width: 100%;
-  background-image: url('/static/humber_bridge-bac4542f5fe49727b5cdb17979d2f131.jpg');
-  background-size: cover;
-  background-position: center;
+  overflow: hidden;
+}
+
+.hero img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: auto;
+  height: auto;
+  min-height: 100%;
+  min-width: 100%;
+  transform: translate(-50%, -50%);
 }
