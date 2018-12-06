@@ -79,3 +79,17 @@ a {
 .header a:hover {
   color: #ffffff;
 }
+
+.layout__wrap {
+  margin: 0px auto;
+  max-width: 960px;
+  padding: 0 1.0875rem 5px;
+}
+
+.hero {
+  height: calc(100vh - 50px);
+  width: 100%;
+  background-image: url('https://www.andrewswalks.co.uk/wp-content/uploads/151041969914179.jpg');
+  background-size: cover;
+  background-position: center;
+}

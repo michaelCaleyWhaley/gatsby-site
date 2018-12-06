@@ -10,10 +10,10 @@ const Header = () => (
       <Logo />
       <ul className="header__nav">
         <li>
-          <Link activeClassName="active" to="/">Index</Link>
+          <Link activeClassName="active" to="/">Home</Link>
         </li>
         <li>
-          <Link activeClassName="active" to="/page-2">Page2</Link>
+          <Link activeClassName="active" to="/about">About</Link>
         </li>
         <li>
           <Link activeClassName="active" to="/page-3">Page3</Link>
